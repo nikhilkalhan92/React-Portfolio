@@ -6,11 +6,11 @@
 
 .a-left {
     flex: 1;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    position: relative;
 }
 
 .a-right {
@@ -34,8 +34,49 @@
 }
 
 .a-img {
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
 
+}
+
+.a-title {
+  font-weight: 400;
+}
+
+.a-sub {
+  margin: 20px 0px;
+  font-style: bold;
+  color: black;
+}
+
+.a-desc {
+  font-weight: 300;
+  margin: 300;
+
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }

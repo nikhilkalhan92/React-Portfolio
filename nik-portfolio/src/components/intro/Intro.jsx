@@ -20,9 +20,12 @@ const Intro = () => {
                        
                      </div>
                      <p className="i-desc">
-                        I design and develop services for customers all sizes speciclising in creating sizes, modern websites, web services & online stores.
+                     I am a motivated and ambitious ex finance professional with strong industry experience who has pivoted into Software Development
 
-                       </p>
+                   
+                   
+                      </p>
+                      
                        </div>
         <svg
           width="75"
@@ -83,7 +86,7 @@ const Intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src='' alt="" className="i-img" />
+        
       </div>
     </div>
   );
