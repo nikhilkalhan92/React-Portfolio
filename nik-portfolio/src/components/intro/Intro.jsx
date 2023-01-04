@@ -88,6 +88,8 @@ const Intro = () => {
         <div className="i-bg"></div>
         
       </div>
+
+
     </div>
   );
 };
