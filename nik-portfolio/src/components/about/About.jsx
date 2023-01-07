@@ -19,16 +19,12 @@ const About = () => {
 
                   <a href='https://www.credential.net/99be0a18-78b1-4251-b9ae-fded475a7159#gs.84w7f4'> - Diploma in Full Stack Software Development (E-commerce Applications)</a>
        
-                  <p className='a-desc'>
-                  - Modules: HTML/CSS , Javascript, Python, Full Stack, PostgreSQL, Software Testing,SEO, Web Marketing, E-Commerce
-
-                  <p className='a-desc'> - Programming Experience: Bootstrap, Flask, Django, jQuery, Heroku, GitHub, React, Mongo.
-                    </p>
+                  
 
                    <p> <a href='https://github.com/nikhilkalhan92'> - Click here for Github Portfolio</a> </p>
 
                     
-                  </p>
+                  
                 </div>
                 
         </div>
