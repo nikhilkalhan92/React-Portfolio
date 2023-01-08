@@ -2,8 +2,24 @@ import "./contact.css"
 import Phone from "../../img/phone.png" 
 import Email from "../../img/email.png" 
 import Address from "../../img/address.png" 
+import { useRef } from "react"
+import emailjs from '@emailjs/browser';
+
 
    const Contact = () => {
+    const formRef = useRef()
+
+   const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_4hsmqbn', 'template_u5ju5kk', form.current, '6tfFCqm20YIBogXNW')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <div className="c">
                <div className="c-bg"></div>
@@ -30,7 +46,7 @@ import Address from "../../img/address.png"
                     <p className="c-desc">
                         <b>feel free to get into contact with me</b> happy to discuss further
                     </p>
-                    <form>
+                    <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" />
                         <input type="text" placeholder="Subject" name="user_subject" />
                         <input type="text" placeholder="Email" name="user_email" />
