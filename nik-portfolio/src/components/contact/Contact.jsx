@@ -2,20 +2,23 @@ import "./contact.css"
 import Phone from "../../img/phone.png" 
 import Email from "../../img/email.png" 
 import Address from "../../img/address.png" 
-import { useRef } from "react"
+import { useRef, setDone } from "react"
 import emailjs from '@emailjs/browser';
 
 
    const Contact = () => {
     const formRef = useRef()
+    
 
    const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_4hsmqbn', 'template_u5ju5kk', form.current, '6tfFCqm20YIBogXNW')
+        emailjs.sendForm('service_1u9vif2', 'template_u5ju5kk', formRef.current, '6tfFCqm20YIBogXNW')
         .then((result) => {
             console.log(result.text);
-        }, (error) => {
+            setDone(true)
+            }, 
+            (error) => {
             console.log(error.text);
         });
     };
@@ -44,7 +47,7 @@ import emailjs from '@emailjs/browser';
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>feel free to get into contact with me</b> happy to discuss further
+                        <b>feel free to get into contact with me</b> 
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" />
@@ -52,6 +55,7 @@ import emailjs from '@emailjs/browser';
                         <input type="text" placeholder="Email" name="user_email" />
                         <textarea rows="5" placeholder="Message" name="message" />
                         <button>Submit</button>
+                        
                     </form>
                     </div> 
                </div>
