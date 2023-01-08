@@ -7,9 +7,12 @@ import ProductList from "./components/productList/ProductList";
 
 
 
+
 const App = () => {
   return (
-    <><><><Intro /><About /></><ProductList /></><Contact /></>
+    <><Intro /><About /><ProductList /><Contact /></>
+    
+   
   )
 }
 export default App;
