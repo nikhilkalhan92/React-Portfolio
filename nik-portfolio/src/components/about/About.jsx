@@ -10,6 +10,12 @@ const About = () => {
 
                    <p> <a href='https://github.com/nikhilkalhan92'> - Click here for Github Portfolio</a> </p>
 
+                   
+                
+                    <a href="https://www.linkedin.com/in/nikhilkalhan/" target="blank"> - Linkedin</a>
+                  
+                   
+
                     
                   
                 </div>
