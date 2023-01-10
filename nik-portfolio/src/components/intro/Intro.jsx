@@ -22,9 +22,11 @@ const Intro = () => {
                      <p className="i-desc">
                      I am a motivated and ambitious ex finance professional with strong industry experience who has pivoted into Software Development
 
-                   
+                    
                    
                       </p>
+
+                      <p classname="i-desc"> Scroll down for more Information </p>
                       
                        </div>
         <svg
