@@ -12,7 +12,7 @@ const About = () => {
 
                    <p> <a href='https://github.com/nikhilkalhan92'> - Click here for Github Portfolio</a> </p>
 
-                   <p> <a href='https://www.dropbox.com/s/rk5r5pxnhxnar2c/NikhilKalhanCV22%20%284%29.pdf?dl=0'>- Nikhil CV </a>'</p>
+                   <p> <a href='https://www.dropbox.com/s/rk5r5pxnhxnar2c/NikhilKalhanCV22%20%284%29.pdf?dl=0'>- Nikhil CV </a></p>
 
                    
                 
