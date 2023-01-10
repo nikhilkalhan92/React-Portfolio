@@ -13,8 +13,8 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "brown", 
-        color: darkMode && "blue" }}>
+        backgroundColor: darkMode ? "#222" : "white", 
+        color: darkMode && "white" }}>
     
       <Toggle />
       <Intro />
